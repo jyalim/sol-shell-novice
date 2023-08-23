@@ -52,7 +52,6 @@ seconds.
 
 ### The Shell
 
-
 The shell is a program where users can type commands.  With the shell,
 it is possible to invoke complicated programs like climate modeling
 software or simple commands that create an empty directory with only one
@@ -133,6 +132,7 @@ such as `Research/`, which would be listed with the above command as
 well.
 
 > ## Command not found
+> 
 > If the shell cannot find a program whose name is the command you
 > typed, it will print an error message such as:
 >

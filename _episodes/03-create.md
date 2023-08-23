@@ -83,6 +83,7 @@ creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.
 {: .output}
 
 > ## Two ways of doing the same thing
+> 
 > Using the shell to create a directory is no different than using a
 > file explorer.  If you open the current directory using your operating
 > system's graphical file explorer, the `thesis` directory will appear
