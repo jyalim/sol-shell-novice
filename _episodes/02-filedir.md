@@ -12,7 +12,7 @@ objectives:
 - "Construct absolute and relative paths that identify specific files and directories."
 - "Use options and arguments to change the behaviour of a shell command"
 - "Demonstrate the use of tab completion, and explain its advantages."
-  keypoints:
+keypoints:
 - "The file system is responsible for managing information on the disk."
 - "Information is stored in files, which are stored in directories (folders)."
 - "Directories can also store other directories, which forms a directory tree."
@@ -78,8 +78,9 @@ exactly identical.
 
 In `rcsparky`'s view, the filesystem looks like this:
 
-![The file system is made up of a root directory that contains sub-directories
-titled bin, data, home, scratch, packages, and tmp](../fig/filesystem-sol.png)
+<img src="../fig/filesystem-sol.png"
+     alt="The file system is made up of a root directory that contains sub-directories titled bin, data, home, scratch, packages, and tmp"
+     style="float: center; size: 50%;" >/
 
 At the top is the **root directory** that holds everything else.  We
 refer to it using a slash character, `/`, on its own; this is the
@@ -115,7 +116,9 @@ on Sol, our colleagues *riley* and *feynman*. Note that Sol has
 thousands of users, but only those who have recently signed into your
 login node will have their `/home` directory also visible.
 
-![Home Directories](../fig/filesystem-sol-home.png)
+<img src="../fig/filesystem-sol-home.png"
+     alt="Example for home directories"
+     style="float: center; size: 50%;" >/
 
 The researcher *riley*'s files are stored in `/home/riley`,
 researcher *feynman*'s in `/home/feynman`, and rcsparky's in
