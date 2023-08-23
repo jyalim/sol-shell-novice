@@ -8,8 +8,7 @@ objectives:
 - "Redirect a command's output to a file."
 - "Process a file instead of keyboard input using redirection."
 - "Construct command pipelines with two or more stages."
-- "Explain what usually happens if a program or pipeline isn't given any
-  input to process."
+- "Explain what usually happens if a program or pipeline isn't given any input to process."
 - "Explain Unix's 'small pieces, loosely joined' philosophy."
 keypoints:
 - "`cat` displays the contents of its inputs."
@@ -17,13 +16,10 @@ keypoints:
 - "`tail` displays the last 10 lines of its input."
 - "`sort` sorts its inputs."
 - "`wc` counts lines, words, and characters in its inputs."
-- "`command > file` redirects a command's output to a file (overwriting
-  any existing content)."
+- "`command > file` redirects a command's output to a file (overwriting any existing content)."
 - "`command >> file` appends a command's output to a file."
-- "`first | second` is a pipeline: the output of the first command is
-  used as the input to the second."
-- "The best way to use the shell is to use pipes to combine simple
-  single-purpose programs (filters)."
+- "`first | second` is a pipeline: the output of the first command is used as the input to the second."
+- "The best way to use the shell is to use pipes to combine simple single-purpose programs (filters)."
 ---
 
 Now that we know a few basic commands, we can finally look at the

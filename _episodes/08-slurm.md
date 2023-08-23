@@ -12,21 +12,15 @@ questions:
 objectives:
 - "Understand the module system."
 - "Understand that python requires `mamba`."
-- "Write a shell script that runs a command or series of commands for a
-  fixed set of files, and run it interactively on a compute node."
-- "Write a shell script that runs a command or series of commands for a
-  fixed set of files, and submit as a job."
+- "Write a shell script that runs a command or series of commands for a fixed set of files, and run it interactively on a compute node."
+- "Write a shell script that runs a command or series of commands for a fixed set of files, and submit as a job."
 - "Learn how to cancel running compute jobs."
 - "Learn how to monitor jobs and compute resources."
 keypoints:
-- "The module system keeps the supercomputer environment adaptive to each
-  researcher."
-- "Interactive sessions are useful for debugging or active job
-  monitoring, e.g. `htop`."
-- "Using the scheduler to submit scripts through `sbatch` is an ultimate
-  scaling goal"
-- "Many commands are provided to aide the researcher, e.g. `myjobs`,
-  `ns`, or `interactive`"
+- "The module system keeps the supercomputer environment adaptive to each researcher."
+- "Interactive sessions are useful for debugging or active job monitoring, e.g. `htop`."
+- "Using the scheduler to submit scripts through `sbatch` is an ultimate scaling goal"
+- "Many commands are provided to aide the researcher, e.g. `myjobs`, `ns`, or `interactive`"
 ---
 
 In this section we will take all that we learned thus far and build on
