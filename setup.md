@@ -24,7 +24,7 @@ in check:
 3. With an account created and the VPN running, you should now have
    access to the supercomputer. From the Windows 10 command prompt or
    MacOS or Linux terminal you should be able to connect to the
-   supercomputer with the shell command: `ssh <asurite>@agave.asu.edu`,
+   supercomputer with the shell command: `ssh <asurite>@sol.asu.edu`,
    where `<asurite>` is a placeholder for *your* asurite username. This
    method is the traditional way of obtaining a shell on the
    supercomputer!

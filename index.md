@@ -11,8 +11,8 @@ automate repetitive tasks so they aren't typing the same things over and
 over again.  Use of the shell is fundamental to using a wide range of
 other powerful tools and computing resources (including
 "high-performance computing" supercomputers).  These lessons will start
-you on a path towards using these resources effectively on ASU's Agave
-cluster.
+you on a path towards using these resources effectively on ASU's Sol
+supercomputer.
 
 > ## Prerequisites
 >
