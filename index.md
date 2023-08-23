@@ -6,7 +6,7 @@ root: .
 <div float="center">
  <p align="center">
   <img
-    width="50%"
+    width="10%"
     src="fig/sol-logo.png"
     alt="Sol supercomputer logo"
   >
