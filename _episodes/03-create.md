@@ -7,27 +7,35 @@ questions:
 - "How can I edit files?"
 objectives:
 - "Create a directory hierarchy that matches a given diagram."
-- "Create files in that hierarchy using an editor or by copying and renaming existing files."
+- "Create files in that hierarchy using an editor or by copying and
+  renaming existing files."
 - "Delete, copy and move specified files and/or directories."
 keypoints:
 - "`cp old new` copies a file."
 - "`mkdir path` creates a new directory."
 - "`mv old new` moves (renames) a file or directory."
 - "`rm path` removes (deletes) a file."
-- "`*` matches zero or more characters in a filename, so `*.txt` matches all files ending in `.txt`."
-- "`?` matches any single character in a filename, so `?.txt` matches `a.txt` but not `any.txt`."
-- "Use of the Control key may be described in many ways, including `Ctrl-X`, `Control-X`, and `^X`."
-- "The shell does not have a trash bin: once something is deleted, it's really gone."
-- "Most files' names are `something.extension`. The extension isn't required, and doesn't guarantee anything, but is normally used to indicate the type of data in the file."
-- "Depending on the type of work you do, you may need a more powerful text editor than Nano."
+- "`*` matches zero or more characters in a filename, so `*.txt` matches
+  all files ending in `.txt`."
+- "`?` matches any single character in a filename, so `?.txt` matches
+  `a.txt` but not `any.txt`."
+- "Use of the Control key may be described in many ways, including
+  `Ctrl-X`, `Control-X`, and `^X`."
+- "The shell does not have a trash bin: once something is deleted, it's
+  really gone."
+- "Most files' names are `something.extension`. The extension isn't
+  required, and doesn't guarantee anything, but is normally used to
+  indicate the type of data in the file."
+- "Depending on the type of work you do, you may need a more powerful
+  text editor than Nano."
 ---
 ## Creating directories
-We now know how to explore files and directories,
-but how do we create them in the first place?
+We now know how to explore files and directories, but how do we create
+them in the first place?
 
 ### Step one: see where we are and what we already have
-Let's go back to our `data-shell` directory on the Desktop
-and use `ls` to see what it contains:
+Let's go back to our `data-shell` directory on the Desktop and use `ls`
+to see what it contains:
 
 ~~~
 $ pwd
@@ -35,7 +43,7 @@ $ pwd
 {: .language-bash}
 
 ~~~
-/home/rcjdoeuser/Desktop/data-shell
+/home/rcsparky/Desktop/data-shell
 ~~~
 {: .output}
 
@@ -89,7 +97,7 @@ creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.
 > when working on the command line. Here we provide a few useful tips
 > for the names of your files.
 >
-> 1. **Don't use spaces**.
+> 1. **Do not use spaces**.
 >
 >    Spaces can make a name more meaningful, but since spaces are used
 >    to separate arguments on the command line it is better to avoid
@@ -97,7 +105,7 @@ creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.
 >    instead (e.g. `north-pacific-gyre/` rather than `north pacific
 >    gyre/`).
 >
-> 2. Don't begin the name with `-` (dash).
+> 2. Do not begin the name with `-` (dash).
 >
 >    Commands treat names starting with `-` as options.
 >
@@ -114,8 +122,8 @@ creatures/  data/  molecules/  north-pacific-gyre/  notes.txt  pizza.cfg  solar.
 > (`""`).
 {: .callout}
 
-Since we've just created the `thesis` directory, there's nothing in it
-yet:
+Since we have just created the `thesis` directory, there is nothing in
+it yet:
 
 ~~~
 $ ls thesis
@@ -143,9 +151,9 @@ $ nano draft.txt
 > programmers use [Emacs](http://www.gnu.org/software/emacs/) or
 > [Vim](http://www.vim.org/) (both of which require more time to learn),
 > or a graphical editor such as
-> [Gedit](http://projects.gnome.org/gedit/). Additionally, Agave's
-> webapp, [login.rc.asu.edu](https://login.rc.asu.edu) provides an
-> editor within the browser.
+> [Gedit](http://projects.gnome.org/gedit/). Additionally, Sol's webapp,
+> [sol.asu.edu](https://sol.asu.edu) provides an editor within the
+> browser.
 >
 > No matter what editor you use, you will need to know where it searches
 > for and saves files. If you start it from the shell, it will
@@ -155,11 +163,11 @@ $ nano draft.txt
 > navigating to another directory the first time you 'Save As...'
 {: .callout}
 
-Let's type in a few lines of text.  Once we're happy with our text, we
+Let's type in a few lines of text.  Once we are happy with our text, we
 can press <kbd>Ctrl</kbd>+<kbd>O</kbd> (press the <kbd>Ctrl</kbd> or
 <kbd>Control</kbd> key and, while holding it down, press the
-<kbd>O</kbd> key) to write our data to disk (we'll be asked what file we
-want to save this to: press <kbd>Return</kbd> to accept the suggested
+<kbd>O</kbd> key) to write our data to disk (we will be asked what file
+we want to save this to: press <kbd>Return</kbd> to accept the suggested
 default of `draft.txt`).
 
 <div style="width:80%; margin: auto;"><img alt="Nano in Action" src="../fig/nano-screenshot.png"></div>
@@ -186,8 +194,8 @@ the editor and return to the shell.
 > file.
 {: .callout}
 
-`nano` doesn't leave any output on the screen after it exits,
-but `ls` now shows that we have created a file called `draft.txt`:
+`nano` does not leave any output on the screen after it exits, but `ls`
+now shows that we have created a file called `draft.txt`:
 
 ~~~
 $ ls
@@ -251,7 +259,7 @@ draft.txt
 > program or other, `.png` is a PNG image, and so on.
 >
 > **This is just a convention**, albeit an important one. Files contain
-> bytes: it's up to us and our programs to interpret those bytes
+> bytes: it is up to us and our programs to interpret those bytes
 > according to the rules for plain text files, PDF documents,
 > configuration files, images, and so on.
 >
@@ -269,7 +277,7 @@ cd ~/Desktop/data-shell/
 ```
 {: .language-bash}
 
-In our `thesis` directory we have a file `draft.txt` which isn't a
+In our `thesis` directory we have a file `draft.txt` which is not a
 particularly informative name, so let's change the file's name using
 `mv`, which is short for 'move':
 
@@ -278,8 +286,8 @@ $ mv thesis/draft.txt thesis/quotes.txt
 ~~~
 {: .language-bash}
 
-The first argument tells `mv` what we're 'moving', while the second is
-where it's to go.  In this case, we're moving `thesis/draft.txt` to
+The first argument tells `mv` what we are 'moving', while the second is
+tells it where to go.  In this case, we are moving `thesis/draft.txt` to
 `thesis/quotes.txt`, which has the same effect as renaming the file.
 Sure enough, `ls` shows us that `thesis` now contains one file called
 `quotes.txt`:
@@ -303,11 +311,11 @@ before overwriting.
 Note that `mv` also works on directories.
 
 Let's move `quotes.txt` into the current working directory.  We use `mv`
-once again, but this time we'll use just the name of a directory as the
-second argument to tell `mv` that we want to keep the filename, but put
-the file somewhere new.  (This is why the command is called 'move'.) In
-this case, the directory name we use is the special directory name `.`
-that we mentioned earlier.
+once again, but this time we will use just the name of a directory as
+the second argument to tell `mv` that we want to keep the filename, but
+put the file somewhere new.  (This is why the command is called 'move'.)
+In this case, the directory name we use is the special directory name
+`.` that we mentioned earlier.
 
 ~~~
 $ mv thesis/quotes.txt .
@@ -498,7 +506,7 @@ quotations.txt
 ## Removing files and directories
 
 Returning to the `data-shell` directory, let's tidy up this directory by
-removing the `quotes.txt` file we created.  The Unix command we'll use
+removing the `quotes.txt` file we created.  The Unix command we will use
 for this is `rm` (short for 'remove'):
 
 ~~~
@@ -520,11 +528,11 @@ ls: cannot access 'quotes.txt': No such file or directory
 
 > ## Deleting Is Forever
 >
-> The Unix shell doesn't have a trash bin that we can recover deleted
+> The Unix shell does not have a trash bin that we can recover deleted
 > files from (though most graphical interfaces to Unix do).  Instead,
 > when we delete files, they are unlinked from the file system so that
 > their storage space on disk can be recycled. Tools for finding and
-> recovering deleted files do exist, but there's no guarantee they'll
+> recovering deleted files do exist, but there is no guarantee they will
 > work in any particular situation, since the computer may recycle the
 > file's disk space right away.
 {: .callout}
@@ -542,7 +550,7 @@ ls: cannot access 'quotes.txt': No such file or directory
 > > {: .language-bash}
 > > The `-i` option will prompt before (every) removal (use <kbd>Y</kbd>
 > > to confirm deletion or <kbd>N</kbd> to keep the file).  The Unix
-> > shell doesn't have a trash bin, so all the files removed will
+> > shell does not have a trash bin, so all the files removed will
 > > disappear forever.  By using the `-i` option, we have the chance to
 > > check that we are deleting only the files that we want to remove.
 > {: .solution}
@@ -685,7 +693,7 @@ pattern using wildcards.
 > > `2.` shows all files whose names start with zero or more characters
 > >      (`*`) followed by the letter `t`, then a single character (`?`),
 > >      then `ne.` followed by zero or more characters (`*`). This will
-> >      give us `octane.pdb` and `pentane.pdb` but doesn't match
+> >      give us `octane.pdb` and `pentane.pdb` but does not match
 > >      anything which ends in `thane.pdb`.
 > >
 > > `3.` fixes the problems of option 2 by matching two characters
@@ -795,8 +803,8 @@ pattern using wildcards.
 
 > ## Organizing Directories and Files
 >
-> Jamie is working on a project and she sees that her files aren't very well
-> organized:
+> Jamie is working on a project and she sees that her files are not very
+> well organized:
 >
 > ~~~
 > $ ls -F
@@ -842,7 +850,7 @@ pattern using wildcards.
 
 > ## Reproduce a folder structure
 >
-> You're starting a new experiment, and would like to duplicate the
+> You are starting a new experiment, and would like to duplicate the
 > directory structure from your previous experiment so you can add new
 > data.
 >
@@ -894,9 +902,9 @@ pattern using wildcards.
 > > set uses relative paths to create the top level directory before the
 > > subdirectories.
 > >
-> > The third set of commands will give an error because `mkdir` won't
-> > create a subdirectory of a non-existant directory: the intermediate
-> > level folders must be created first.
+> > The third set of commands will give an error because `mkdir` will
+> > not create a subdirectory of a non-existant directory: the
+> > intermediate level folders must be created first.
 > >
 > > The final set of commands generates the 'raw' and 'processed'
 > > directories at the same level as the 'data' directory.

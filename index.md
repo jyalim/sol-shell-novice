@@ -17,12 +17,12 @@ cluster.
 > ## Prerequisites
 >
 > This lesson guides you through the basics of file systems and the
-> shell, with a particular emphasis on the ASU high-performance cluster:
-> Agave.  If you have stored files on a computer at all and recognize
-> the word "file" and either "directory" or "folder" (two common words
-> for the same thing), you're ready for this lesson.
+> shell, with a particular emphasis on the ASU high-performance
+> supercomputer: Sol.  If you have stored files on a computer at all and
+> recognize the word "file" and either "directory" or "folder" (two
+> common words for the same thing), you are ready for this lesson.
 >
-> If you're already comfortable manipulating files and directories,
+> If you are already comfortable manipulating files and directories,
 > searching for files with `grep` and `find`, and writing simple loops
 > and scripts, you may be interested in these additional materials
 > provided by the Software Carpentries on Unix (i.e. MacOS) shell

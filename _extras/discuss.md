@@ -62,10 +62,10 @@ written for.
 
 ## Bash Configurations
 
-Want to customize paths, environment variables, aliases,
-and other behaviors of your shell?
-This excellent blog post "[Bash Configurations Demystified][bash-demystified]"
-from Dalton Hubble
-covers tips, tricks, and how to avoid dangers.
+Want to customize paths, environment variables, aliases, and other
+behaviors of your shell?  This excellent blog post "[Bash Configurations
+Demystified][bash-demystified]" from Dalton Hubble
+covers tips, tricks, and how to avoid dangers. *It is not recommended to
+do this to your configuration on the supercomputer*.
 
 [bash-demystified]: https://blog.dghubble.io/posts/.bashprofile-.profile-and-.bashrc-conventions/

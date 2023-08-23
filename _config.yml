@@ -10,7 +10,7 @@
 carpentry: "swc"
 
 # Overall title for pages.
-title: "The Agave Linux Shell"
+title: "The Linux Shell on the Sol Supercomputer"
 
 
 #------------------------------------------------------------
@@ -23,10 +23,10 @@ kind: "lesson"
 # Magic to make URLs resolve both locally and on GitHub.
 # See https://help.github.com/articles/repository-metadata-on-github-pages/.
 # Please don't change it: <USERNAME>/<PROJECT> is correct.
-repository: jyalim/agave-shell-novice
+repository: jyalim/sol-shell-novice
 
 # Email address, no mailto:
-email: "yalim@asu.edu"
+email: "jyalim@asu.edu"
 
 # Sites.
 amy_site: "https://amy.software-carpentry.org/workshops"
@@ -47,8 +47,8 @@ workshop_site: "https://carpentries.github.io/workshop-template"
 
 # Surveys.
 pre_survey: ""
-post_survey: "https://forms.gle/K4HEovMFt93rqUvk6"
-training_post_survey: "https://forms.gle/K4HEovMFt93rqUvk6"
+post_survey: ""
+training_post_survey: ""
 
 # Start time in minutes (0 to be clock-independent, 540 to show a start at 09:00 am).
 start_time: 0
