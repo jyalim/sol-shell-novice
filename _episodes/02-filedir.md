@@ -7,34 +7,24 @@ questions:
 - "How can I see what files and directories I have?"
 - "How can I specify the location of a file or directory on Sol?"
 objectives:
-- "Explain the similarities and differences between a file and a
-  directory."
+- "Explain the similarities and differences between a file and a directory."
 - "Translate an absolute path into a relative path and vice versa."
-- "Construct absolute and relative paths that identify specific files
-  and directories."
+- "Construct absolute and relative paths that identify specific files and directories."
 - "Use options and arguments to change the behaviour of a shell command"
 - "Demonstrate the use of tab completion, and explain its advantages."
   keypoints:
 - "The file system is responsible for managing information on the disk."
-- "Information is stored in files, which are stored in directories
-  (folders)."
-- "Directories can also store other directories, which forms a directory
-  tree."
+- "Information is stored in files, which are stored in directories (folders)."
+- "Directories can also store other directories, which forms a directory tree."
 - "`cd path` changes the current working directory."
-- "`ls path` prints a listing of a specific file or directory; `ls` on
-  its own lists the current working directory."
+- "`ls path` prints a listing of a specific file or directory; `ls` on its own lists the current working directory."
 - "`pwd` prints the user's current working directory."
 - "`/` on its own is the root directory of the whole file system."
-- "A relative path specifies a location starting from the current
-  location."
-- "An absolute path specifies a location from the root of the file
-  system."
-- "Directory names in a path are separated with `/` on Unix, but `\\` on
-  Windows."
-- "`..` means 'the directory above the current one'; `.` on its own
-  means 'the current directory'."
-- "On Sol, users have two main working spaces: `/home/username` and
-  `/scratch/username`." 
+- "A relative path specifies a location starting from the current location."
+- "An absolute path specifies a location from the root of the file system."
+- "Directory names in a path are separated with `/` on Unix, but `\\` on Windows."
+- "`..` means 'the directory above the current one'; `.` on its own means 'the current directory'."
+- "On Sol, users have two main working spaces: `/home/username` and `/scratch/username`." 
 ---
 
 The part of the operating system responsible for managing files and
