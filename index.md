@@ -3,6 +3,16 @@ layout: lesson
 root: .
 ---
 
+<div float="center">
+ <p align="center">
+  <img
+    width="50%"
+    src="fig/sol-logo.png"
+    alt="Sol supercomputer logo"
+  >
+ </p>
+</div>
+
 The Unix shell has been around longer than most of its users have been
 alive.  It has survived so long because it is a power tool that allows
 people to do complex things with just a few keystrokes.  More

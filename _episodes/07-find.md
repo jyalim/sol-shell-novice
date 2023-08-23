@@ -6,14 +6,20 @@ questions:
 - "How can I find files?"
 - "How can I find things in files?"
 objectives:
-- "Use `grep` to select lines from text files that match simple patterns."
-- "Use `find` to find files and directories whose names match simple patterns."
-- "Use the output of one command as the command-line argument(s) to another command."
-- "Explain what is meant by 'text' and 'binary' files, and why many common tools do not handle the latter well."
+- "Use `grep` to select lines from text files that match simple
+  patterns."
+- "Use `find` to find files and directories whose names match simple
+  patterns."
+- "Use the output of one command as the command-line argument(s) to
+  another command."
+- "Explain what is meant by 'text' and 'binary' files, and why many
+  common tools do not handle the latter well."
 keypoints:
 - "`find` finds files with specific properties that match patterns."
 - "`grep` selects lines in files that match patterns."
-- "`--help` is an option supported by many bash commands, and programs that can be run from within Bash, to display more information on how to use these commands or programs."
+- "`--help` is an option supported by many bash commands, and programs
+  that can be run from within Bash, to display more information on how
+  to use these commands or programs."
 - "`man command` displays the manual page for a given command."
 - "`$(command)` inserts a command's output in place."
 ---
