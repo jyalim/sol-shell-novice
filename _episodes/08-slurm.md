@@ -37,7 +37,8 @@ the `interactive` command.  We are going to take the commands we repeat
 frequently and save them in files that can be submitted to compute nodes
 for asynchronous completion.  
 
-## Software on the Sol supercomputer
+> ## Software on the Sol supercomputer
+> 
 > The Sol supercomputer was 
 > [ranked #388 in the World as of June, 2023](https://www.top500.org/lists/top500/list/2023/06/?page=4). 
 > Sol provides significant computational resources to many researchers
@@ -47,6 +48,7 @@ for asynchronous completion.
 > simple and generic as possible, and used specialized,
 > administrator-provided tools to load in software dependencies specific
 > to each computational workflow. 
+{: .callout}
 
 We will begin by first examining the example workflow that we will be
 working with. 
@@ -188,6 +190,7 @@ $ source activate scicomp
 {: .output}
 
 > ## Required steps to use python for computational research, in summary
+> 
 > 1. Load the python package manager: `module load mamba/latest`
 > 2. Activate the appropriate environment, e.g., `source activate
 >    scicomp`
@@ -300,6 +303,7 @@ smca sme sev sev_es
 {: .output}
 
 ## Lightwork
+> 
 > If you are planning on doing light interactive work, like compiling
 > code or building a python environment, working on a homework problem,
 > or developing/debugging a program, an alternative command
