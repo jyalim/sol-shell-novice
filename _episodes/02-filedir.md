@@ -90,7 +90,8 @@ In `rcsparky`'s view, the filesystem looks like this:
 
 <img src="../fig/filesystem-sol.png"
      alt="The file system is made up of a root directory that contains sub-directories titled bin, data, home, scratch, packages, and tmp"
-     style="float: center; size: 50%;" >/
+     style="float: center; size: 50%;" 
+>
 
 At the top is the **root directory** that holds everything else.  We
 refer to it using a slash character, `/`, on its own; this is the
@@ -128,7 +129,8 @@ login node will have their `/home` directory also visible.
 
 <img src="../fig/filesystem-sol-home.png"
      alt="Example for home directories"
-     style="float: center; size: 50%;" >/
+     style="float: center; size: 50%;" 
+>
 
 The researcher *riley*'s files are stored in `/home/riley`,
 researcher *feynman*'s in `/home/feynman`, and rcsparky's in
