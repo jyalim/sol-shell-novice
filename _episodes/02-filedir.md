@@ -129,10 +129,11 @@ on Sol, our colleagues *riley* and *feynman*. Note that Sol has
 thousands of users, but only those who have recently signed into your
 login node will have their `/home` directory also visible.
 
+<div style="float: center; size: 50%">
 <img src="../fig/filesystem-sol-home.png"
      alt="Example for home directories"
-     style="float: center; size: 50%;" 
 >
+</div>
 
 The researcher *riley*'s files are stored in `/home/riley`,
 researcher *feynman*'s in `/home/feynman`, and rcsparky's in
