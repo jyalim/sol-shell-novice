@@ -88,10 +88,12 @@ exactly identical.
 
 In `rcsparky`'s view, the filesystem looks like this:
 
+<div style="float: center; size: 50%">
 <img src="../fig/filesystem-sol.png"
      alt="The file system is made up of a root directory that contains sub-directories titled bin, data, home, scratch, packages, and tmp"
-     style="float: center; size: 50%;" 
+     style="float: center; size: 50%;"  
 >
+</div>
 
 At the top is the **root directory** that holds everything else.  We
 refer to it using a slash character, `/`, on its own; this is the
